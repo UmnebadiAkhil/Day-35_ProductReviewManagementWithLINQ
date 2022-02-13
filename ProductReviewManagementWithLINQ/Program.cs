@@ -77,7 +77,11 @@ namespace ProductReviewManagement
 
             //UC 9
             //Retrieve all records from data table from islike
-            ProductReviewDataTable.RetrieveAllRecordsWhoseIsLikeIsTrue();
+            //ProductReviewDataTable.RetrieveAllRecordsWhoseIsLikeIsTrue();
+
+            //UC10
+            //Retrieve all records and find average for each product
+            ProductReviewDataTable.FindAverageRatingForEachProductId();
         }
     }
 
