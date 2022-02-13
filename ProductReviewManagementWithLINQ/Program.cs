@@ -33,6 +33,11 @@ namespace ProductReviewManagement
                 Console.WriteLine("ProductID: " + list.ProductID + "UserId: " + list.UserID + "Rating: " + list.Rating
                     + "Review: " + list.Review + "IsLike: " + list.isLike);
             }
+
+            //object of management class
+            Management management = new Management();
+            //calling top record and passing product review list
+            management.TopRecords(productReviewList);
         }
     }
 
