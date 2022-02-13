@@ -36,8 +36,12 @@ namespace ProductReviewManagement
 
             //object of management class
             Management management = new Management();
-            //calling top record and passing product review list
-            management.TopRecords(productReviewList);
+            //UC2
+            //management.TopRecords(productReviewList);
+
+            //UC3
+            //Select specific records with id = 1, 4, 9 and rating > 3
+            management.SelectedRecords(productReviewList);
         }
     }
 
