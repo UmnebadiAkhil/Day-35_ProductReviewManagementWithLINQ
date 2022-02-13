@@ -1,0 +1,15 @@
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\bin\Debug\net6.0\ProductReviewManagementWithLINQ.exe
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\bin\Debug\net6.0\ProductReviewManagementWithLINQ.deps.json
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\bin\Debug\net6.0\ProductReviewManagementWithLINQ.runtimeconfig.json
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\bin\Debug\net6.0\ProductReviewManagementWithLINQ.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\bin\Debug\net6.0\ref\ProductReviewManagementWithLINQ.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\bin\Debug\net6.0\ProductReviewManagementWithLINQ.pdb
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.csproj.AssemblyReference.cache
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.AssemblyInfoInputs.cache
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.AssemblyInfo.cs
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.csproj.CoreCompileInputs.cache
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ref\ProductReviewManagementWithLINQ.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.pdb
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-35_ProductReviewManagementWithLINQ\ProductReviewManagementWithLINQ\obj\Debug\net6.0\ProductReviewManagementWithLINQ.genruntimeconfig.cache
