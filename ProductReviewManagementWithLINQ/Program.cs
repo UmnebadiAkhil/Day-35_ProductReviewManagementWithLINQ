@@ -49,7 +49,11 @@ namespace ProductReviewManagement
 
             //UC5
             //Gets Product id and reviews
-            management.RetrieveProductIdAndReview(productReviewList);
+            //management.RetrieveProductIdAndReview(productReviewList);
+
+            //UC6
+            //Get all product records except top 5
+            management.RetrieveProductsBySkippingTop5(productReviewList);
         }
     }
 

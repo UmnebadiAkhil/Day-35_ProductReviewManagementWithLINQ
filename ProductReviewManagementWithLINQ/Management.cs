@@ -84,8 +84,6 @@ namespace ProductReviewManagementWithLINQ
         /// <param name="listReview">The list review.</param>
         public void RetrieveProductIdAndReview(List<ProductReview> listReview)
         {
-            //from productreviews of object table listreview retrieve 
-            //only product id and review product reviews from the list
             var recordedData = from productReviews in listReview
                                select new
                                {
@@ -96,6 +94,23 @@ namespace ProductReviewManagementWithLINQ
             foreach (var list in recordedData)
             {
                 Console.WriteLine("Product Id:- " + list.ProductID + " " + "Review: " + list.Review);
+            }
+        }
+
+        /// <summary>
+        /// UC6
+        /// Retrieves the products by skipping top5.
+        /// </summary>
+        /// <param name="listReview">The list review.</param>
+        public void RetrieveProductsBySkippingTop5(List<ProductReview> listReview)
+        {         
+            var recordedData = (from productReviews in listReview
+                                select productReviews).Skip(5);
+
+            foreach (var list in recordedData)
+            {
+                Console.WriteLine("ProductID: " + list.ProductID + "UserId: " + list.UserID + "Rating: " + list.Rating
+                    + "Review: " + list.Review + "IsLike: " + list.isLike);
             }
         }
     }
