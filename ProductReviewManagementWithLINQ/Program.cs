@@ -57,7 +57,11 @@ namespace ProductReviewManagement
 
             //UC7
             //Retrieveonlyproductid
-            Management.RetrieveOnlyProductIDAndReviewOfAllRecordsUsingSelect(productReviewList);
+            //Management.RetrieveOnlyProductIDAndReviewOfAllRecordsUsingSelect(productReviewList);
+
+            //UC 8
+            //Created data table
+            ProductReviewDataTable.AddDataIntoDataTable();
         }
     }
 
