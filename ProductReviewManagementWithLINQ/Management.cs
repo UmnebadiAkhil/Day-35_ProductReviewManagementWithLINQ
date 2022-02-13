@@ -76,5 +76,27 @@ namespace ProductReviewManagementWithLINQ
                 Console.WriteLine($"ProductID:{v.ProductID},ReviewCount:{v.Count}");
             }
         }
+
+        /// <summary>
+        /// UC5
+        /// Retrieves the product identifier and review.
+        /// </summary>
+        /// <param name="listReview">The list review.</param>
+        public void RetrieveProductIdAndReview(List<ProductReview> listReview)
+        {
+            //from productreviews of object table listreview retrieve 
+            //only product id and review product reviews from the list
+            var recordedData = from productReviews in listReview
+                               select new
+                               {
+                                   productReviews.ProductID,
+                                   productReviews.Review
+                               };
+
+            foreach (var list in recordedData)
+            {
+                Console.WriteLine("Product Id:- " + list.ProductID + " " + "Review: " + list.Review);
+            }
+        }
     }
 }
