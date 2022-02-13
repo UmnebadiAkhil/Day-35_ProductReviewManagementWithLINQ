@@ -28,11 +28,11 @@ namespace ProductReviewManagement
                 new ProductReview() { ProductID = 16, UserID = 10, Rating = 4, Review = "nice", isLike = true },
             };
 
-            foreach (var list in productReviewList)
-            {
-                Console.WriteLine("ProductID: " + list.ProductID + "UserId: " + list.UserID + "Rating: " + list.Rating
-                    + "Review: " + list.Review + "IsLike: " + list.isLike);
-            }
+            //foreach (var list in productReviewList)
+            //{
+            //    Console.WriteLine("ProductID: " + list.ProductID + "UserId: " + list.UserID + "Rating: " + list.Rating
+            //        + "Review: " + list.Review + "IsLike: " + list.isLike);
+            //}
 
             //object of management class
             Management management = new Management();
@@ -41,7 +41,11 @@ namespace ProductReviewManagement
 
             //UC3
             //Select specific records with id = 1, 4, 9 and rating > 3
-            management.SelectedRecords(productReviewList);
+            //management.SelectedRecords(productReviewList);
+
+            //UC4
+            //Counts products by product id
+            management.RetrieveCountOfRecords(productReviewList);
         }
     }
 

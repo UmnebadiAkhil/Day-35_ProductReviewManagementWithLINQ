@@ -57,5 +57,24 @@ namespace ProductReviewManagementWithLINQ
                 Console.WriteLine($"ProductID:{v.ProductID}\tUserID:{v.UserID}\tRating:{v.Rating}\tReview:{v.Review}\tIsLike:{v.isLike}");
             }
         }
+
+        /// <summary>
+        /// UC 4
+        /// Retrieves the count of records.
+        /// </summary>
+        /// <param name="listReview">The list review.</param>
+        public void RetrieveCountOfRecords(List<ProductReview> listReview)
+        {
+            //using object listReview also by grouping the object i.e ProductId
+            //and then selecting ProductId and then count is used 
+            var recordedData = listReview.GroupBy(x => x.ProductID).Select(x => new { ProductID = x.Key, Count = x.Count() });
+
+            Console.WriteLine("ProductId and their review count:");
+
+            foreach (var v in recordedData)
+            {
+                Console.WriteLine($"ProductID:{v.ProductID},ReviewCount:{v.Count}");
+            }
+        }
     }
 }
