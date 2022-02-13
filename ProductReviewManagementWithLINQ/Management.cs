@@ -113,5 +113,20 @@ namespace ProductReviewManagementWithLINQ
                     + "Review: " + list.Review + "IsLike: " + list.isLike);
             }
         }
+
+        /// <summary>
+        /// UC7
+        /// Retrieves the only product identifier and review of all records using select.
+        /// </summary>
+        /// <param name="productList">The product list.</param>
+        public static void RetrieveOnlyProductIDAndReviewOfAllRecordsUsingSelect(List<ProductReview> productList)
+        {
+            var recordedData = productList.Select(x => new { ProductId = x.ProductID, Review = x.Review });
+            Console.WriteLine("\nProductId and its review using LINQ select:");
+            foreach (var v in recordedData)
+            {
+                Console.WriteLine($"ProductID:{v.ProductId},ReviewCount:{v.Review}");
+            }
+        }
     }
 }

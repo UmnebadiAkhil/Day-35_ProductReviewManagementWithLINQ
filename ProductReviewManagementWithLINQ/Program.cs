@@ -53,7 +53,11 @@ namespace ProductReviewManagement
 
             //UC6
             //Get all product records except top 5
-            management.RetrieveProductsBySkippingTop5(productReviewList);
+            //management.RetrieveProductsBySkippingTop5(productReviewList);
+
+            //UC7
+            //Retrieveonlyproductid
+            Management.RetrieveOnlyProductIDAndReviewOfAllRecordsUsingSelect(productReviewList);
         }
     }
 
